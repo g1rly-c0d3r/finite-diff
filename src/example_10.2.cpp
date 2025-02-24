@@ -47,7 +47,6 @@ int main(void){
     v[j][0] = f_init(j * delta_x, k * delta_t);
   }
 
-  // for this example, shorthand
   // these are constants we got from solving the difference eq
   double s = 1.0 - delta_t/delta_x - delta_t; 
   double d = delta_t/delta_x;
